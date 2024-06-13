@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/js/jquery/jquery-3.6.0.min.js">
+    <title>Calendario de asignaturas</title>
+</head>
+
+<body>
+    <main class="container mt-3 mb-5 min-vh-100" id="form-1">
+       <div class="form" >
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-light ">
+                        <h3 class="card-title"> Datos Personales</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="provincia" class="form-label">Provincia</label>
+                                <input type="text" class="form-control" id="provincia">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="ciudad" class="form-label">Ciudad</label>
+                                <input type="text" class="form-control" id="ciudad">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="sector" class="form-label">Sector</label>
+                                <input type="text" class="form-control" id="sector">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="calle" class="form-label">Calle</label>
+                                <input type="text" class="form-control" id="calle">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="carrera" class="form-label">Carrera</label>
+                                <select name="carrera" class="form-control" id="carrera">
+                                    <option value="">Seleccione una opcion</option>
+                                    <option value="Desarrollo de Software">Desarrollo de Software</option>
+                                    <option value="Inteligencia Artificial">Inteligencia Artificial</option>
+                                    <option value="Telecomunicaciones">Telecomunicaciones</option>
+                                    <option value="Mecatrónica">Mecatrónica</option>
+                                    <option value="Sonido">Sonido</option>
+                                </select>
+                            </div>
+
+                            <div class="mt-4">
+                                <button type="button" class="btn btn-success float-end me-4"
+                                    id="btn-registrar">Registrar</button>
+                            </div>
+
+                            <div class="mt-4">
+                                <button type="button" class="btn btn-secondary float-end me-4"
+                                    id="btn-limpiar">Limpiar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </main>
+
+    <script src="../assets/js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script src="../assets/js/index.js"></script>
+</body>
+
+</html>

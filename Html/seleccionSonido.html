@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonido</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row justify-content-center" id="seleccion">
+    <div class="col-8">
+        <div class="card">
+            <div class="card-header bg-black text-white">
+                <h4 class="card-title">Selección de Asignaturas</h4>
+            </div>
+            <div class="card-body">
+                <div class="accordion" id="accordionFlushExample">
+
+                    <!-- mesa de mezcla 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Mesa de Mezcla I
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label><input type="radio" name="mezcla" value="manana" data-dia="Lun" data-hora="8:00 - 12:00" data-materia="Mesa de Mezcla I">Lun 08:00 - 12:00</label>
+                                <br>
+                                <label><input type="radio" name="mezcla" value="tarde" data-dia="Mie" data-hora="2:00 - 6:00" data-materia="Mesa de Mezcla I">Mie 2:00 - 6:00</label>
+                                <br>
+                                <label><input type="radio" name="mezcla" value="noche" data-dia="Vie" data-hora="6:00 - 6:00" data-materia="Mesa de Mezcla I">Vie 6:00 - 10:00</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- microfonia -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Microfonía
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label><input type="radio" name="microfonia" value="manana" data-dia="Mar" data-hora="9:00 - 1:00" data-materia="Microfonía">Mar 9:00 - 1:00</label>
+                                <br>
+                                <label><input type="radio" name="microfonia" value="tarde" data-dia="Jue" data-hora="2:00 - 6:00" data-materia="Microfonía">Jue 2:00 - 6:00</label>
+                                <br>
+                                <label><input type="radio" name="microfonia" value="noche" data-dia="Sab" data-hora="8:00 - 12:00" data-materia="Microfonía">Sab 8:00 - 12:00</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- grabación en estudio -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Grabación en Estudio
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label><input type="radio" name="grabacion" value="manana" data-dia="Lun" data-hora="10:00 - 2:00" data-materia="Grabación en Estudio">Lun 10:00 - 2:00</label>
+                                <br>
+                                <label><input type="radio" name="grabacion" value="tarde" data-dia="Mie" data-hora="4:00 - 8:00" data-materia="Grabación en Estudio">Mie 4:00 - 8:00</label>
+                                <br>
+                                <label><input type="radio" name="grabacion" value="noche" data-dia="Vie" data-hora="7:00 - 10:00" data-materia="Grabación en Estudio">Vie 7:00 - 10:00</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- producción musical -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Producción Musical
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label><input type="radio" name="produccion" value="manana" data-dia="Mar" data-hora="11:00 - 3:00" data-materia="Producción Musical">Mar 11:00 - 3:00</label>
+                                <br>
+                                <label><input type="radio" name="produccion" value="tarde" data-dia="Jue" data-hora="5:00 - 9:00" data-materia="Producción Musical">Jue 5:00 - 9:00</label>
+                                <br>
+                                <label><input type="radio" name="produccion" value="noche" data-dia="Sab" data-hora="9:00 - 1:00" data-materia="Producción Musical">Sab 9:00 - 1:00</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- apreciación musical -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Apreciación Musical
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label><input type="radio" name="apreciacion" value="manana" data-dia="Mie" data-hora="10:00 - 2:00" data-materia="Apreciación Musical">Mie 10:00 - 2:00</label>
+                                <br>
+                                <label><input type="radio" name="apreciacion" value="tarde" data-dia="Vie" data-hora="3:00 - 7:00" data-materia="Apreciación Musical">Vie 3:00 - 7:00</label>
+                                <br>
+                                <label><input type="radio" name="apreciacion" value="noche" data-dia="Dom" data-hora="2:00 - 6:00" data-materia="Apreciación Musical">Dom 2:00 - 6:00</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="mt-4">
+                    <button type="button" class="btn btn-success float-end me-4" id="btn-enviar">Siguiente</button>
+               </div>
+               <div class="mt-4">
+                <button type="button" class="btn btn-primary float-end me-4" id="btn-atras">Atras</button>
+              </div>
+            </div>
+           </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center" id="confirmacion" style="display: none;">
+    <div class="col-9">
+
+        <div class="card">
+            <div class="card-header bg-success text-white">
+              <h2 class="card-title">Confirmacion</h2>
+            </div>
+
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h6 class="card-title">Datos</h6>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="datos-personales">
+                        
+                        </div>
+
+                        <div class="tabla-materias mt-5">
+                            
+                        </div>
+                        
+                        <div class="mt-4">
+                            <button type="button" class="btn btn-success float-end me-4"
+                                id="btn-finalizar">Finalizar</button>
+                        </div>
+                        <div class="mt-4">
+                            <button type="button" class="btn btn-primary float-end me-4" id="btn-atras-co">Atras</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+<script src="/assets/js/index.js"></script>
+<script>
+    var accordion = new bootstrap.Collapse(document.getElementById('accordionFlushExample'), {
+         toggle: false
+       });
+   </script>
+
+</body>
+</html>

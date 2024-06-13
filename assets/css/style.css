@@ -1,0 +1,31 @@
+.mr-1{
+    margin-right: 1%;
+}
+
+.input-error{
+  border-color: red;
+  border-width: medium;  
+}
+
+.input-success{
+  border-color: green;
+  border-width: medium; 
+}
+
+.margin-top-2{
+    margin-top: 2%;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header{
+  background-color: black;
+}
+
+.dropdown-toggle{
+  width: 100%;
+}
